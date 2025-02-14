@@ -1,0 +1,97 @@
+/*
++++++++++++++++++++++++++++++++++++
+CONFIGURAÇÕES BASICAS
++++++++++++++++++++++++++++++++++++
+*/
+
+body {
+
+     font-family: "Fira Sans", Arial ,sans-serif; /* Define a fonte PRINCIPAL PARA O SITE */
+     margin: 0px ; /* remove qualquer margem padrão aplicada pelo navegador */
+     color: #141414; /* Define  a cor dos textos para um tom escuro */
+    }
+
+    h1, h2, h3, p {
+     margin: 0px ; /* remove qualquer margem padrão aplicada pelo navegador */
+    }
+    img {
+        max-width: 100%;  /* Garante que a imagem unca ultrapasse o contaneir pai para não haver overflow */
+        height: auto; /* Mantém a proporção original da imagem */
+    }
+
+    li {
+        list-style: none; /*  retira os pontos da lista */
+
+    }
+/*
++++++++++++++++++++++++++++++++++++
+CONFIGURAÇÕES HEADER CABEÇÃLHO
++++++++++++++++++++++++++++++++++++
+*/
+
+.header {
+    max-width:1200px ; /* Define a largura maxima para evitar que o conteudo fique muito largo em telas grandes */
+    padding: 40px 20px; /* Espaçamento interno para cima/baixo , direita/esquerda */
+    margin: 0 auto; /* Centraliza ro cabeçalho na horizntal */
+    display: flex; /* Organiza os elementos lado a lado */
+    justify-content: space-between; /* Distribui o itens do header uniformemente */
+    align-items: center; /* Alinha verticalmente os elementos */
+    }
+
+    .header-menu {
+        display:flex; /* Organiza os elemento lado a lado */
+        flex-wrap: wrap; /* Permite que os itens do menu quebrem a linha */
+        gap: 10px; /* espaçamento entre os itens do menu  */
+        justify-content: center; /* Garante qe os itens sempre fiquem centralizados */
+    }
+
+    .header-menu a {
+        text-decoration: none; /* remove o sublinhado */
+        color: #141414; /* Define  a cor dos textos para um tom escuro */
+        padding: 10px 20px;
+        font-size: 18px;
+        display: block; /*  garante que todos link ocupe toda area do botão */
+}
+/*
++++++++++++++++++++++++++++++++++++
+INTRODUÇÃO
++++++++++++++++++++++++++++++++++++
+*/
+
+.introducao {
+    max-width: 1200px;
+    padding:  40px 20px ;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr; /*  divide o espaço , 1 parte para a imagem e 2 partes para o texto */
+    gap: 100px;
+   align-items: center;
+}
+
+.introducao h1 { 
+    font-size: 72px;
+    margin-bottom: 30px;
+
+}
+
+.introducao p {
+    font-size: 24px;
+    color:#525252;
+    }
+/*
++++++++++++++++++++++++++++++++++++
+SESSÃO EXPERIÊNCIAS
++++++++++++++++++++++++++++++++++++
+*/
+    
+.experiencia {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    
+
+}    
