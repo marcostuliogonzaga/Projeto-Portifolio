@@ -6,6 +6,8 @@ CONFIGURAÇÕES BASICAS
 
 body {
 
+   
+
      font-family: "Fira Sans", Arial ,sans-serif; /* Define a fonte PRINCIPAL PARA O SITE */
      margin: 0px ; /* remove qualquer margem padrão aplicada pelo navegador */
      color: #141414; /* Define  a cor dos textos para um tom escuro */
@@ -93,5 +95,18 @@ SESSÃO EXPERIÊNCIAS
     grid-template-columns: 1fr 2fr;
     gap: 100px;
     
-
 }    
+.experiencia .subtitulo {
+
+    color: #e0e0e0;
+
+}
+
+.experiencia-texto {
+    font-size: 24px;
+
+}
+
+.subtitulo {
+    font-size: 144px;
+}
