@@ -1,5 +1,33 @@
-# Importando fontes do google fonts
-1. Acesse https://fonts.google.com/
-2.Procurar fonte em search
-3.clicar em get font e copiar o codigo de incorporação no <haad> do html parte de cima. 
-4.Após , utilizar a fonte com propriedade "  font-family " no css e colocar " "arial" e "sans serif"
+# Portfólio Marcos Túlio
+
+Este projeto é uma página web simples desenvolvida com HTML e CSS, com o objetivo de praticar conceitos de front-end e criar um portfólio pessoal.
+
+##  Sobre
+
+A página apresenta informações profissionais de **Marcos Túlio**, como:
+
+- Experiência profissional
+- Formação acadêmica
+- Informações de contato
+
+É um projeto focado em aprendizado, organização de conteúdo e estrutura semântica de HTML.
+
+## 🛠 Tecnologias Utilizadas
+
+- HTML5
+- CSS3
+- Google Fonts
+
+
+## 💡 Objetivo
+
+- Praticar estruturação de HTML semântico
+- Trabalhar com estilização em CSS
+- Aprender como hospedar um projeto no GitHub pela primeira vez
+
+## 🔗 Contato
+
+📧 marcostuliogonzaga14031985@gmail.com  
+📱 +55 21 97045-712
+
+
